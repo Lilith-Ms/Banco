@@ -1,8 +1,6 @@
-
-
 """
 🏦 CAJERO AUTOMÁTICO - Versión con POO
-Autor: [XXXXXX]
+Autor: Jazmín Avila Chica
 Fecha: 2026
 Características: Herencia, Polimorfismo, Encapsulamiento, Abstracción
 """
