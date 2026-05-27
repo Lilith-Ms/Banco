@@ -27,3 +27,15 @@ entrada = ttk.Entry(frm, width=30)
 entrada.grid(column=0, row=0, columnspan=3, padx=5, pady=5)
 
 entrada.focus()
+
+
+btn_saludar = ttk.Button(frm, text="Saludar", command=saludar)
+btn_saludar.grid(column=0, row=2, padx=5)
+
+btn_limpiar = ttk.Button(frm, text="Limpiar", command=limpiar)
+btn_limpiar.grid(column=1, row=2, padx=5)
+
+btn_salir = ttk.Button(frm, text="Salir", command=root.destroy)
+btn_salir.grid(column=2, row=2, padx=5)
+
+root.mainloop()
